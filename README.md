@@ -37,3 +37,7 @@ Open the folder in VS Code, and a terminal there.
 - Give each new item's span and button their own `addEventListener('click', ...)` as you create them.
 - `shoppingList.querySelectorAll('li:not(.done)').length` counts the items still to buy.
 - A text box's value is a string: `Number(firstInput.value)` turns it into a number.
+
+## Hand it in
+
+When it works, push your solution to a public repo of your own on GitHub, then paste that repo's address into **Submit your exercise** on the lesson page at [ask-codey.com](https://www.ask-codey.com). That's what completes the lesson. The lesson page shows the Git commands, step by step.
