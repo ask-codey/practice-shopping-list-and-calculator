@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopping List and Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Shopping List</h1>
+            <form id="shopping-form">
+                <label for="item">Item</label>
+                <input id="item" type="text" placeholder="Milk, bread, coffee..." autocomplete="off">
+                <button type="submit">Add</button>
+            </form>
+            <ul id="shopping-list"></ul>
+            <p id="items-left"></p>
+        </section>
+
+        <section>
+            <h1>Calculator</h1>
+            <form id="calculator">
+                <input id="first" type="number" step="any" value="10" aria-label="First number">
+                <select id="operator" aria-label="Operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">×</option>
+                    <option value="/">÷</option>
+                </select>
+                <input id="second" type="number" step="any" value="4" aria-label="Second number">
+                <button type="submit">=</button>
+            </form>
+            <p id="result"></p>
+        </section>
+    </main>
+
+    <script src="shopping.js"></script>
+    <script src="calculator.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
