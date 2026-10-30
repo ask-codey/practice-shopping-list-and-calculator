@@ -1,6 +1,6 @@
-# Practice: Shopping List and Calculator
+# Exercise: Shopping List and Calculator
 
-Practice code for the lesson **Practice: Shopping List and Calculator** in the C# Full-Stack Bootcamp on [ask-codey.com](https://www.ask-codey.com).
+Exercise code for the lesson **Exercise: Shopping List and Calculator** in the C# Full-Stack Bootcamp on [ask-codey.com](https://www.ask-codey.com).
 
 One web page, two little apps: a shopping list you can add to, cross off and clear, and a calculator. The page and its styles are done; you'll write the JavaScript.
 
